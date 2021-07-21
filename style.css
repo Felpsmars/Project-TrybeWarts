@@ -65,4 +65,26 @@ main {
 #family-container {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+#learning-container {
+  width: 50%;
+}
+
+#checks {
+  display: flex;
+}
+
+#first-three {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+#last-three {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
 }
