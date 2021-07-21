@@ -27,8 +27,38 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: solid black 1px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#input-name {
+  width: 50%;
+  margin: 10px;
+
+}
+
+#input-lastname {
+  width: 50%;
+  margin: 10px;
+}
+
+#nameLastname {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#input-email {
+  width: 345px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+#emailHouse {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }

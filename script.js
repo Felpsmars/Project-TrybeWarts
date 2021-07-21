@@ -1,5 +1,5 @@
 const query = document.querySelector.bind(document);
-const queryAll = document.querySelectorAll.bind(document);
+// const queryAll = document.querySelectorAll.bind(document);
 
 const button = query('.button');
 const email = query('.email');
