@@ -88,3 +88,17 @@ main {
   justify-content: space-around;
   margin: 10px;
 }
+
+#evaluation {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#evaluation input {
+  margin-left: 22px;
+}
+
+#checkbox {
+  display: flex;
+}
