@@ -1,5 +1,4 @@
 const query = document.querySelector.bind(document);
-// const queryAll = document.querySelectorAll.bind(document);
 
 const button = query('.button');
 const email = query('.email');
@@ -37,3 +36,11 @@ function charCounter() {
 }
 
 text.addEventListener('keyup', charCounter);
+
+function defaultpreventer(event) {
+  event.preventDefault();
+}
+
+submit.addEventListener('click', defaultpreventer);
+
+// recomitando
