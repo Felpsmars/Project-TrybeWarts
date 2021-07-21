@@ -21,6 +21,7 @@
 
 main {
   display: flex;
+  height: 83.8vh;
 }
 
 #evaluation-form {
@@ -104,7 +105,8 @@ main {
 
 footer {
   display: flex;
+  height: 6vh;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding: 50px;
+  border: 1px solid green;
 }
