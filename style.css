@@ -27,7 +27,6 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  border: solid black 1px;
 }
 
 #trybewarts-forms-logo {
@@ -101,4 +100,12 @@ main {
 
 #checkbox {
   display: flex;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+  border: 1px solid green;
 }
