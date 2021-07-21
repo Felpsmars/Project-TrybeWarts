@@ -27,3 +27,13 @@ function checkChange() {
 }
 
 checkBox.addEventListener('click', checkChange);
+
+const text = query('#textarea');
+const character = query('#counter');
+
+function charCounter() {
+  const val = text.value;
+  character.innerHTML = 500 - val.length;
+}
+
+text.addEventListener('keyup', charCounter);

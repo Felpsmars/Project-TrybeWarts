@@ -52,19 +52,19 @@
                 <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                 <div id="first-three">
                 <label for="HoFs">HoFs</label>
-                <input type="checkbox" id="HoFs" value="HoFs">                
+                <input type="checkbox" id="HoFs" value="HoFs" class="subject">                
                 <label for="Jest">Jest</label>
-                <input type="checkbox" id="Jest" value="Jest">
+                <input type="checkbox" id="Jest" value="Jest" class="subject">
                 <label for="Promises">Promises</label>
-                <input type="checkbox" id="Promises" value="Promises">
+                <input type="checkbox" id="Promises" value="Promises" class="subject">
                 </div>
                 <div id="last-three">
                 <label for="React">React</label>
-                <input type="checkbox" id="React" value="React">
+                <input type="checkbox" id="React" value="React" class="subject">
                 <label for="SQL">SQL</label>
-                <input type="checkbox" id="SQL" value="SQL">
+                <input type="checkbox" id="SQL" value="SQL" class="subject">
                 <label for="Python">Python</label>
-                <input type="checkbox" id="Python" value="Python">
+                <input type="checkbox" id="Python" value="Python" class="subject">
                 </div>
             </div>
         </div>
@@ -92,10 +92,11 @@
           <label for="rate">10</label>
         </div>
         <label class="textarea">Deixe seu comentário:</label>
-        <textarea name="" id="" maxlength="500"></textarea>
+        <textarea name="" id="textarea" rows="8" maxlength="500"></textarea>
+        <p id="counter">500</p>
         <div id="checkbox">
           <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-          <input type="checkbox" name="" id="agreement">
+          <input type="checkbox" name="" id="agreement" class="subject">
         </div>
         <button id="submit-btn" disabled type="submit">Enviar</button>
       </form>
