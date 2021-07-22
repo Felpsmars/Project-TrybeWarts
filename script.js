@@ -18,7 +18,7 @@ const checkBox = query('#checkbox');
 const submit = query('#submit-btn');
 
 function checkChange() {
-  if (checkBox.value === "") {
+  if (checkBox.value === '') {
     submit.disabled = true;
   } else {
     submit.disabled = false;
