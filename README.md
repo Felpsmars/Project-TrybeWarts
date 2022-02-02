@@ -3,8 +3,6 @@ Tema: Criação de um formulário tematizado harry potter
 
 Habilidades testadas neste projeto:
 
-Neste projeto, verificamos se você é capaz de:
-
   * Criar formulários em HTML;
 
   * Utilizar CSS Flexbox para criar layouts flexíveis;
